@@ -1,5 +1,5 @@
 import { Core } from './core';
-import { Service } from './';
+import { Service } from './service';
 import { Base } from './services/base';
 import { ParentResourceService } from './parent-resource-service';
 import { PathBuilder } from './services/path-builder';

@@ -2,7 +2,7 @@ import { ISchema, ICollection, IParamsCollection, IParamsResource } from '../int
 import { Page } from './page';
 
 export class Base {
-    public static Params: IParamsCollection | IParamsResource = {
+    public static Params: /* IParamsCollection | */ IParamsResource = {
         id: '',
         include: []
     };

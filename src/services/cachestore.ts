@@ -4,7 +4,7 @@ import { IDataCollection } from '../interfaces/data-collection';
 import { Core } from '../core';
 import { Base } from './base';
 import { IObject } from '../interfaces/object';
-import { Resource } from '../';
+import { Resource } from '../resource';
 import { Converter } from './converter';
 
 export class CacheStore implements ICache {

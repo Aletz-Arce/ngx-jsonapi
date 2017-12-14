@@ -1,7 +1,7 @@
 import { ICollection } from '../interfaces';
 import { ICacheMemory } from '../interfaces/cachememory';
 import { Base } from './base';
-import { Resource } from '../';
+import { Resource } from '../resource';
 import { Converter } from './converter';
 import { ResourceFunctions } from './resource-functions';
 

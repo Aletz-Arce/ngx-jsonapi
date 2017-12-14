@@ -1,5 +1,5 @@
 import { Base } from '../services/base';
-import { Resource } from '../';
+import { Resource } from '../resource';
 import { ICollection } from '../interfaces/';
 
 export class LocalFilter {

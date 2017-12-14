@@ -2,7 +2,7 @@ import { noop } from 'rxjs/util/noop';
 
 import { Core } from './core';
 import { Base } from './services/base';
-import { Resource } from './';
+import { Resource } from './resource';
 import { ParentResourceService } from './parent-resource-service';
 import { PathBuilder } from './services/path-builder';
 import { UrlParamsBuilder } from './services/url-params-builder';

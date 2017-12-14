@@ -5,7 +5,7 @@ import { IDataCollection } from '../interfaces/data-collection';
 import { IDataObject } from '../interfaces/data-object';
 import { IDataResource } from '../interfaces/data-resource';
 import { Base } from '../services/base';
-import { Resource } from '../';
+import { Resource } from '../resource';
 
 export class ResourceRelationshipsConverter {
     private getService: Function;

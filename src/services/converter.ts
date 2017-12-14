@@ -1,6 +1,7 @@
 // import * as angular from 'angular';
 import { Core } from '../core';
-import { Service, Resource } from '../';
+import { Resource } from '../resource';
+import { Service } from '../service';
 import { ICollection, IResourcesById, IResourcesByType } from '../interfaces';
 import { ResourceRelationshipsConverter } from './resource-relationships-converter';
 import { IDataObject } from '../interfaces/data-object';

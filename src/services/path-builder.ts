@@ -1,6 +1,6 @@
 import { IParamsCollection, IParamsResource } from '../interfaces';
 import { Core } from '../core';
-import { Service } from '../';
+import { Service } from '../service';
 
 export class PathBuilder {
     public paths: Array<string> = [];

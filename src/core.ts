@@ -2,7 +2,8 @@ import { Injectable, Optional, Inject } from '@angular/core';
 import { noop } from 'rxjs/util/noop';
 
 import { ICollection } from './interfaces';
-import { Service, Resource } from './';
+import { Service } from './service';
+import { Resource } from './resource';
 import { Base } from './services/base';
 import { JsonapiConfig } from './jsonapi-config';
 import { Http as JsonapiHttp } from './sources/http.service';
@@ -72,7 +73,7 @@ export class Core {
 
     // just an helper
     public duplicateResource(resource: Resource, ...relations_alias_to_duplicate_too: Array<string>): Resource {
-        let newresource = this.getResourceService(resource.type).new();
+        let newresource = <Resource>this.getResourceService(resource.type).new();
         newresource.attributes = { ...newresource.attributes, ...resource.attributes };
         newresource.attributes.name = newresource.attributes.name + ' xXx';
         Base.forEach(resource.relationships, (relationship, alias: string) => {
