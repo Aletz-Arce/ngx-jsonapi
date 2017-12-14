@@ -1,5 +1,5 @@
 import { ICollection } from '../interfaces';
-import { Resource } from '../';
+import { Resource } from '../resource';
 
 export class ResourceFunctions {
     public static resourceToResource(source: Resource, destination: Resource): void {
