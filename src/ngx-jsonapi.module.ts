@@ -16,8 +16,8 @@ import { JsonapiConfig } from './jsonapi-config';
         CommonModule
     ],
     exports: [
-        BrowserModule,  // needed by HttpClientModule?
-        HttpClientModule
+        // BrowserModule,  // needed by HttpClientModule?
+        // HttpClientModule
     ],
     providers: [
         JsonapiCore,
